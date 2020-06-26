@@ -8,9 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          Welcome to my first react page.
+          Chops Social Media Accounts, enjoy!
         </h1>
-        <p>Social Media Accounts</p>
         <a
           className="App-link"
           href="https://www.facebook.com/David.kavana7"
