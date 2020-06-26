@@ -7,16 +7,33 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>
+          Welcome to my first react page.
+        </h1>
+        <p>Social Media Accounts</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.facebook.com/David.kavana7"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Facebook
+        </a>
+        <a
+          className="App-link"
+          href="https://www.instagram.com/chops_and_dogs/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+        <a
+          className="App-link"
+          href="https://twitter.com/Dave_kav"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
         </a>
       </header>
     </div>
