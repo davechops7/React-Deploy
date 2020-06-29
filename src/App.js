@@ -10,7 +10,7 @@ class App extends React.Component {
     }
     return (
       <div>
-        <h1 style={myStyle}>Header</h1>
+        <h1 style={myStyle}>Chops Social Media Accounts, enjoy!</h1>
       </div>
     );
   }
