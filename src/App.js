@@ -1,20 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
-// import './App.css';
-import Headline from './Headline.js';
+ import './App.css';
 
-const green = '#39D1B4';
+const blue = '#282c34';
 const yellow = '#FFD712';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { color: green };
+    this.state = { color: blue };
     this.changeColor = this.changeColor.bind(this);
   }
 
   changeColor() {
-    const newColor = this.state.color == green ? yellow : green;
+    const newColor = this.state.color === blue ? yellow : blue;
     this.setState({ color: newColor });
   }
 
