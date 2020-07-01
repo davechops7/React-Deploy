@@ -20,19 +20,46 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{ background: this.state.color }}>
-        <h1>
-          Change my color
+      <div className="App">
+      <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+         <h1>
+           Chops Social Media Accounts, enjoy!
         </h1>
+          <a
+            className="App-link"
+            href="https://www.facebook.com/David.kavana7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+        </a>
+          <a
+            className="App-link"
+            href="https://www.instagram.com/chops_and_dogs/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+        </a>
+          <a
+            className="App-link"
+            href="https://twitter.com/Dave_kav"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+        </a>
+      <div style={{ background: this.state.color }}>
         <button onClick={this.changeColor}>
-          Change color
+          Change bg color
 				</button>
+      </div>
+        </header>
       </div>
     );
   }
 }
-
-// ReactDOM.render(<Toggle />, document.getElementById('app'));
 
 // function App() {
 //   return (
@@ -71,4 +98,4 @@ class App extends React.Component {
 //   );
 // }
 
-export default App;
+export default App;  // expose the App component to other modules
