@@ -3,13 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import Headline from './Headline.js';
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 const green = '#39D1B4';
 const yellow = '#FFD712';
 
-class Toggle extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { color: green };
